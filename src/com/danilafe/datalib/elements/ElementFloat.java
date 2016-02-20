@@ -6,6 +6,11 @@ import java.io.OutputStream;
 
 import com.danilafe.datalib.DataUtils;
 
+/**
+ * Float element. Carries a single float as data.
+ * @author vanilla
+ *
+ */
 public class ElementFloat extends Element {
 
 	public float data = 0;
@@ -19,7 +24,7 @@ public class ElementFloat extends Element {
 	@Override
 	public void parseSelf(InputStream inputStream) throws IOException {
 		super.parseSelf(inputStream);
-		data = DataUtils.readFloat(inputStream, data);
+		data = DataUtils.readFloat(inputStream);
 	}
 
 	@Override

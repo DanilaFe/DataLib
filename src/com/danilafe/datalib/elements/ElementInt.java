@@ -6,6 +6,11 @@ import java.io.OutputStream;
 
 import com.danilafe.datalib.DataUtils;
 
+/**
+ * Integer element. Carries a single int as data.
+ * @author vanilla
+ *
+ */
 public class ElementInt extends Element {
 
 	public int data = 0;

@@ -7,6 +7,11 @@ import java.util.ArrayList;
 
 import com.danilafe.datalib.DataUtils;
 
+/**
+ * List element. Holds other elements without a particular order.
+ * @author vanilla
+ *
+ */
 public class ElementList extends Element {
 
 	public ArrayList<Element> elements = new ArrayList<Element>();

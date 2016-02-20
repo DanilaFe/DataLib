@@ -6,6 +6,11 @@ import java.io.OutputStream;
 
 import com.danilafe.datalib.DataUtils;
 
+/**
+ * String element. Hodls a single string as data.
+ * @author vanilla
+ *
+ */
 public class ElementString extends Element {
 
 	public String data;
